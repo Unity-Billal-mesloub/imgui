@@ -6,19 +6,18 @@
 - [Issues vs Discussions](#issues-vs-discussions)
 - [How to open an Issue](#how-to-open-an-issue)
 - [How to open a Pull Request](#how-to-open-a-pull-request)
-- [Copyright / Contributor License Agreement](#copyright--contributor-license-agreement)
 
 ## Getting Started & General Advice
 
 - Article: [How To Ask Good Questions](https://bit.ly/3nwRnx1).
-- Please browse the [Wiki](https://github.com/ocornut/imgui/wiki) to find code snippets, links and other resources (e.g. [Getting Started](https://github.com/ocornut/imgui/wiki/Getting-Started), [Useful extensions](https://github.com/ocornut/imgui/wiki/Useful-Extensions)).
-- Please read [Getting Started](https://github.com/ocornut/imgui/wiki/Getting-Started) if your question relates to setting up Dear ImGui.
-- Please read [docs/FAQ.md](https://github.com/ocornut/imgui/blob/master/docs/FAQ.md).
-- Please read [docs/FONTS.md](https://github.com/ocornut/imgui/blob/master/docs/FONTS.md) if your question relates to fonts or text.
+- Please browse the [Wiki](https://github.com/Unity-Billal-mesloub/imgui/wiki) to find code snippets, links and other resources (e.g. [Getting Started](https://github.com/Unity-Billal-mesloub/imgui/wiki/Getting-Started), [Useful extensions](https://github.com/Unity-Billal-mesloub/imgui/wiki/Useful-Extensions)).
+- Please read [Getting Started](https://github.com/Unity-Billal-mesloub/imgui/wiki/Getting-Started) if your question relates to setting up Dear ImGui.
+- Please read [docs/FAQ.md](https://github.com/Unity-Billal-mesloub/imgui/blob/main/docs/FAQ.md).
+- Please read [docs/FONTS.md](https://github.com/Unity-Billal-mesloub/imgui/blob/main/docs/FONTS.md) if your question relates to fonts or text.
 - Please run `ImGui::ShowDemoWindow()` to explore the demo and its sources.
 - Please use the search function of your IDE to search for symbols and comments related to your situation.
 - Please use the search function of GitHub to look for similar topics (always include 'Closed' issues/pr in your search).
-- You may [browse issues by Labels](https://github.com/ocornut/imgui/labels).
+- You may [browse issues by Labels](https://github.com/Unity-Billal-mesloub/imgui/labels).
 - Please use a web search engine to look for similar issues.
 - If you get a crash or assert, use a debugger to locate the line triggering it and read the comments around.
 - Please don't be a [Help Vampire](https://slash7.com/2006/12/22/vampires/).
@@ -32,7 +31,7 @@ Only if you:
 - Cannot BUILD, or LINK, or RUN Dear ImGui in your application or custom engine.
 - Cannot LOAD a font.
 
-Then please [use the Discussions forums](https://github.com/ocornut/imgui/discussions) instead of opening an issue.
+Then please [use the Discussions forums](https://github.com/Unity-Billal-mesloub/imgui/discussions) instead of opening an issue.
 
 If Dear ImGui is successfully showing in your app and you have used Dear ImGui before, you can open an Issue. Any form of discussions is welcome as a new issue.
 
@@ -73,9 +72,4 @@ If you have been using Dear ImGui for a while or have been using C/C++ for sever
 - **Make sure your code follows the coding style already used in the codebase:** 4 spaces indentations (no tabs), `local_variable`, `FunctionName()`, `MemberName`, `// Text Comment`, `//CodeComment();`, C-style casts, etc.. We don't use modern C++ idioms and tend to use only a minimum of C++11 features. The applications under examples/ are generally less consistent because they sometimes try to mimic the coding style often adopted by a certain ecosystem (e.g. DirectX-related code tend to use the style of their sample).
 - **Make sure you create a branch dedicated to the pull request**. In Git, 1 PR is associated to 1 branch. If you keep pushing to the same branch after you submitted the PR, your new commits will appear in the PR (we can still cherry-pick individual commits).
 
-## Copyright / Contributor License Agreement
-
-Any code you submit will become part of the repository and be distributed under the [Dear ImGui license](https://github.com/ocornut/imgui/blob/master/LICENSE.txt). By submitting code to the project you agree that the code is your work and that you can give it to the project.
-
-You also agree by submitting your code that you grant all transferable rights to the code to the project maintainer, including for example re-licensing the code, modifying the code, and distributing it in source or binary forms. Specifically, this includes a requirement that you assign copyright to the project maintainer. For this reason, do not modify any copyright statements in files in any PRs.
 
